@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:id="@+id/linearLayout">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/menu_profile" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-10dp"
+        android:text="ADMIN"
+        android:textSize="20sp"
+        android:textColor="#a4a4a4"/>
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:alpha="0.4"
+        android:text="Add Book"
+        android:id="@+id/bAdd" />
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="List of books in database"
+        android:alpha="0.6"
+        android:id="@+id/bList" />
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Issued books list"
+        android:alpha="0.4"
+        android:id="@+id/bIssueList" />
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Delete Issue Table records"
+        android:alpha="0.6"
+        android:id="@+id/bDeleteIssueList" />
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Add PDFs"
+        android:alpha="0.4"
+        android:id="@+id/bAddPDF" />
+</LinearLayout>

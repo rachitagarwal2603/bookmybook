@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "798044055926",
+    "firebase_url": "https://bookmybook-960ba.firebaseio.com",
+    "project_id": "bookmybook-960ba",
+    "storage_bucket": "bookmybook-960ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798044055926:android:230e03127484e78c",
+        "android_client_info": {
+          "package_name": "app.racdeveloper.com.bookmybook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798044055926-13fubkkgbfduond7thkt85vmcmh01okb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwEGahJLEXlukfcckG8Pd42IXZ0i2Zpik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

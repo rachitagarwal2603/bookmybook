@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.racdeveloper.com.bookmybook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".userLogin.SignUpActivity"/>
+        <activity android:name=".userLogin.ResetPasswordActivity"/>
+        <activity android:name=".userLogin.LoginActivity"/>
+        <activity android:name=".admin.AdminActivity"/>
+        <activity android:name=".admin.DataBaseBookList"/>
+        <activity android:name=".admin.IssuedBookList"/>
+        <activity android:name=".WebActivity"/>
+        <activity android:name=".ebookList.EBookActivity"/>
+        <activity android:name=".IssueBookActivity"/>
+        <activity android:name=".AboutUsActivity"/>
+        <activity android:name=".ProfileActivity"/>
+        <activity android:name=".ReviewActivity"/>
+        <activity android:name=".userProfile.BookPreviewActivity"/>
+    </application>
+
+</manifest>

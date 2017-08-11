@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo_splash"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="\nBook my Book is an application developed in order to facilitate books inside a college campus for online and offline sharing. This platform enables the avid readers of the college to get an idea about each book in the database and issue it for reading.\n\nThe main motive of the app is to provide books free of cost to those who love reading. Books of all genres and from all phases of life are a part of this making it possible for it to reach the wider audience."
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20sp"
+        android:textAlignment="center"
+        android:paddingRight="20sp"
+        android:textSize="15sp"
+        android:textColor="#c4c1c1"
+        android:id="@+id/tvText" />
+</LinearLayout>

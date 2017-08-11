@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_book_list"
+            android:icon="@drawable/ic_comm"
+            android:title=" Available Books"/>
+        <item
+            android:id="@+id/nav_pdfs"
+            android:icon="@drawable/menu_pdfs"
+            android:title=" E-Books" />
+        <item
+            android:id="@+id/nav_issue"
+            android:icon="@drawable/menu_issue"
+            android:title=" Issue book" />
+        <item
+            android:id="@+id/nav_webview"
+            android:icon="@drawable/menu_webview"
+            android:title=" Visit our page" />
+    </group>
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:icon="@drawable/ic_support"
+                android:title=" About us"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_log"
+                android:title=" Logout"/>
+        </menu>
+    </item>
+</menu>
